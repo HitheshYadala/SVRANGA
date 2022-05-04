@@ -1,0 +1,58 @@
+a {
+    color: #020202;
+    text-decoration: none;
+    
+}
+
+.menuicon {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(245, 85, 37);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: -0.0rem;
+        padding-left: .5rem;
+    }
+}
+
+abbr {
+    cursor: pointer !important;
+}
+
+.homeicon {
+    margin: -3px !important;
+}
+
+.dropdown-menu {
+    width: 300px !important;
+}
+
+.dropdown-menu .nav-link {
+    color: black !important;
+    margin-left: 1em;
+}
+
+.dropdown-menu .nav-link:hover {
+    background-color: rgba(128, 128, 128, 0.384) !important;
+}
+
+.homeicon {
+    margin-top: -12px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
