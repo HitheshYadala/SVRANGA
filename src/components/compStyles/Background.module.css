@@ -1,0 +1,27 @@
+.article {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    /* position:absolute;
+    bottom:0;
+    right:0; */
+    
+}
+
+.header {
+    height: 400px;
+    font-size: 15px;
+    vertical-align: top;
+    font-family:serif;
+    /* color: white; */
+    text-align: right;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+  
+
+
+}
