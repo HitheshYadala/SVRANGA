@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar'
 import building from "../assets/BUILDING.png"
+import aboutbutton from "../components/compStyles/Aboutbutton.css"
 
 export default class Aboutus extends Component {
   render() {
     return (
       <>
+      {/* <div style={{backgroundImage: "linear-gradient(to top left,#ddf1db, #ffffff)"}}></div> */}
       {/* <Navbar /> */}
-      <div style={{justifyContent : "center", backgroundColor:"#f5fff2"}}>
+      <div style={{justifyContent : "center", backgroundImage: "linear-gradient(to top left,#ddf1db, #ffffff)"}}>
         <img  src={building} style={{  display: "block",
   marginLeft: "auto",
   marginRight: "auto",
@@ -25,6 +27,10 @@ export default class Aboutus extends Component {
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The college has the unique feature of being the only college offering B.Tech (Agril.Engg.) degree in Andhra Pradesh State till 2008. The annual intake of the students into the degree programme was only 20 in the initial year 1983-84 and later was raised to 65 in the subsequent years. The admissions are made through EAMCET conducted by the Government of Andhra Pradesh and also through the UG- level ICAR exam. At present the annual intake is 65 plus 8 from ICAR quota.
 
 </p>
+<div>
+<span style={aboutbutton}><a href="/photogallary"></a></span>
+  </div>
+  
       </div>
 
       </>

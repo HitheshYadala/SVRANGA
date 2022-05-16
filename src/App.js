@@ -8,6 +8,8 @@ import Courses from "./pages/Courses";
 import Departments from "./pages/Departments";
 import Welfare from "./pages/Welfare";
 import Publications from "./pages/Publications";
+import Adminlogin from "./pages/Adminlogin";
+import PhotoGallary from "./pages/PhotoGallary";
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
         <Route path="Departments" element={ <Departments /> } />
         <Route path="Welfare" element={ <Welfare /> } />
         <Route path="Publications" element={ <Publications /> } />
+        <Route path="adminlogin" element = {<Adminlogin />} />
+        <Route path="photogallary" element = {<PhotoGallary />} />
 
 
 
@@ -30,5 +34,6 @@ function App() {
     </div>
   )
 }
-
+// 3c8d33a6cf5fdcc key
+// b020ce98d33d51f secret
 export default App

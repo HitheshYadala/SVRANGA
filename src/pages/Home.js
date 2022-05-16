@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 import banner from "../assets/BannerImage.jpeg"
 import '../components/compStyles/messages.css'
 import avatar from "../assets/img_avatar.png"
+import ReadMoreReact from 'read-more-react'
 
 export default class Home extends Component {
   render() {
     return (
-<>
+<div style={{backgroundImage: "linear-gradient(to top left,#ddf1db, #ffffff)"}}>
       <div className='row pt-5'>
         <div className='col-md-4'>
         <div className="content" >
@@ -60,7 +61,7 @@ export default class Home extends Component {
 </div>
 </div>
 
-</>
+</div>
 
     )
   }
