@@ -5,10 +5,21 @@
     /* border: 3px solid black; */
     border-radius: 10px;
     justify-content:space-around;
-
     font-weight: 300;
     /* margin-left: 20px;
     margin-right: 20px; */
+}
+#basic-navbar-nav{
+    color: #718069;
+}
+.navbar-toggler-icon{
+    color: whitesmoke;
+}
+
+#basic-nav-dropdown{
+    color: whitesmoke;
+    /* font-weight: bold;
+    background-color: red; */
 }
 
 /* .navglow{

@@ -7,7 +7,7 @@ export default class Aboutus extends Component {
   render() {
     return (
       <>
-      {/* <div style={{backgroundImage: "linear-gradient(to top left,#ddf1db, #ffffff)"}}></div> */}
+      
       {/* <Navbar /> */}
       <div style={{justifyContent : "center", backgroundImage: "linear-gradient(to top left,#ddf1db, #ffffff)"}}>
         <img  src={building} style={{  display: "block",

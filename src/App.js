@@ -10,12 +10,18 @@ import Welfare from "./pages/Welfare";
 import Publications from "./pages/Publications";
 import Adminlogin from "./pages/Adminlogin";
 import PhotoGallary from "./pages/PhotoGallary";
+import Readmoredean from "./pages/Readmoredean";
+
 function App() {
+
+
+
   return (
     <div className="App">
 
        <Navbar />
       <Routes>
+        
         <Route path="/" element={ <Home/> } />
         <Route path="/home" element={ <Home/> } />
         <Route path="AboutUs" element={ <AboutUs/> } />
@@ -27,8 +33,9 @@ function App() {
         <Route path="Publications" element={ <Publications /> } />
         <Route path="adminlogin" element = {<Adminlogin />} />
         <Route path="photogallary" element = {<PhotoGallary />} />
+        <Route path="readmoredean" element = {<Readmoredean />} />
 
-
+        
 
       </Routes>
     </div>

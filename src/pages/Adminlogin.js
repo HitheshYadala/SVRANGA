@@ -72,8 +72,8 @@ handleSubmit = event => {
             <div style={{justifyContent : "space-between"}}>
               <img src={this.state.image} />
               <h1>Select Image</h1>
-              {/* <input type="file" name="myImage" onChange={this.handleChange} /> */}
-              <button style={{backgroundColor : "red" , width : '80px', border: 'none'}}>Upload</button>
+              <input type="file" name="myImage" onChange={this.handleChange} />
+              {/* <button style={{backgroundColor : "red" , width : '80px', border: 'none'}}>Upload</button> */}
               <input type="text" name="Designation" onChange={this.handleText} />
             </div>
             <button onClick={this.handleSubmit}>Submit</button>
